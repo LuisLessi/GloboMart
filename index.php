@@ -8,6 +8,7 @@ Rotas::get_pagina();
 
 //valores para o template
 $smarty->assign('NOME', 'Luis Lessi');
+$smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
 
 echo Rotas::pag_Carrinho();
 
