@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2023-06-11 15:57:36
+/* Smarty version 3.1.48, created on 2023-06-12 20:24:04
   from 'C:\Users\luisa\OneDrive\Área de Trabalho\projetosPHP\loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6485eef0987260_42733224',
+  'unifunc' => 'content_64877ee4cb6c90_26149791',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e2f2fd64f973e3d5db867f248b37a22f4944359b' => 
     array (
       0 => 'C:\\Users\\luisa\\OneDrive\\Área de Trabalho\\projetosPHP\\loja\\view\\index.tpl',
-      1 => 1686499055,
+      1 => 1686601440,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64877ee4cb6c90_26149791 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -84,7 +84,8 @@ function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl)
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="/view/images/home/logo.png" alt="" /></a>
+							<a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+"><img src="/view/images/home/logo.png" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -113,10 +114,12 @@ function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl)
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_MINHACONTA']->value;?>
+"><i class="fa fa-user"></i> Account</a></li>
 								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
 								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+								<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
+"><i class="fa fa-shopping-cart"></i> Cart</a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
 							</ul>
 						</div>
@@ -139,13 +142,15 @@ function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl)
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+" class="active">Home</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Products</a></li>
 										<li><a href="product-details.html">Product Details</a></li> 
 										<li><a href="checkout.html">Checkout</a></li> 
-										<li><a href="cart.html">Cart</a></li> 
+										<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
+">Cart</a></li> 
 										<li><a href="login.html">Login</a></li> 
                                     </ul>
                                 </li> 
@@ -156,7 +161,8 @@ function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl)
                                     </ul>
                                 </li> 
 								<li><a href="404.html">404</a></li>
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
+">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -1015,7 +1021,8 @@ function content_6485eef0987260_42733224 (Smarty_Internal_Template $_smarty_tpl)
 							<h2>Service</h2>
 							<ul class="nav nav-pills nav-stacked">
 								<li><a href="#">Online Help</a></li>
-								<li><a href="#">Contact Us</a></li>
+								<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
+">Contact Us</a></li>
 								<li><a href="#">Order Status</a></li>
 								<li><a href="#">Change Location</a></li>
 								<li><a href="#">FAQ’s</a></li>

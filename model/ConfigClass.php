@@ -3,8 +3,8 @@
 Class Config {
 
     //Infos básicas do site
-    const SITE_URL = "http://localhost";
-    const SITE_PASTA = "loja";
+    const SITE_URL = "http://localhost:8070";
+    const SITE_PASTA = "";
     const SITE_NOME = "GloboMart";
     const SITE_EMAIL_ADM = "assassinsonic1@gmail.com";
 
