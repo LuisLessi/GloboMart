@@ -8,6 +8,7 @@ class ComposerStaticInit8ad12e2bd7effc0204ed87c7ea6d2d00
 {
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Conexao' => __DIR__ . '/../..' . '/model/ConexaoClass.php',
         'Config' => __DIR__ . '/../..' . '/model/ConfigClass.php',
         'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
         'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',

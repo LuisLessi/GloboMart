@@ -12,7 +12,8 @@ Class Config {
     const BD_HOST = "localhost",
           BD_USER = "root",
           BD_SENHA = "",
-          BD_BANCO = "GloboMart";
+          BD_BANCO = "globomart",
+          BD_PREFIX = "";
 
     //Infos para PHP MAILLER
     const EMAIL_HOST = "smtp.gmail.com";
