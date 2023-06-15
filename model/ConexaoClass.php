@@ -1,8 +1,8 @@
 <?php
 
 Class Conexao extends Config {
-    private $host, $user, $senha, $banco, $prefix;
-    private $obj; 
+    private $host, $user, $senha, $banco;
+    protected $obj, $itens=array(), $prefix; 
 
     function __construct()
     {
