@@ -14,6 +14,7 @@ return array(
     'PHPMailerOAuth' => $vendorDir . '/phpmailer/phpmailer/class.phpmaileroauth.php',
     'PHPMailerOAuthGoogle' => $vendorDir . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
     'POP3' => $vendorDir . '/phpmailer/phpmailer/class.pop3.php',
+    'Produtos' => $baseDir . '/model/ProdutosClass.php',
     'Rotas' => $baseDir . '/model/RotasClass.php',
     'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'Smarty' => $vendorDir . '/smarty/smarty/libs/Smarty.class.php',

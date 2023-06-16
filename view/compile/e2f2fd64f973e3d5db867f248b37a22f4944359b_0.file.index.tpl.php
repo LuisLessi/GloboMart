@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2023-06-14 00:04:34
+/* Smarty version 3.1.48, created on 2023-06-15 15:53:17
   from 'C:\Users\luisa\OneDrive\Área de Trabalho\projetosPHP\loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6489041268e4a0_50178585',
+  'unifunc' => 'content_648b33edeff870_79245546',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e2f2fd64f973e3d5db867f248b37a22f4944359b' => 
     array (
       0 => 'C:\\Users\\luisa\\OneDrive\\Área de Trabalho\\projetosPHP\\loja\\view\\index.tpl',
-      1 => 1686613137,
+      1 => 1686843201,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6489041268e4a0_50178585 (Smarty_Internal_Template $_smarty_tpl) {
+function content_648b33edeff870_79245546 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -146,7 +146,7 @@ function content_6489041268e4a0_50178585 (Smarty_Internal_Template $_smarty_tpl)
 " class="active">Home</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Products</a></li>
+                                        <li><a href="/view/shop.html">Products</a></li>
 										<li><a href="product-details.html">Product Details</a></li> 
 										<li><a href="checkout.html">Checkout</a></li> 
 										<li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
@@ -161,7 +161,7 @@ function content_6489041268e4a0_50178585 (Smarty_Internal_Template $_smarty_tpl)
                                     </ul>
                                 </li> 
 								<li><a href="404.html">404</a></li>
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="../view/contact-us.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -1020,7 +1020,7 @@ function content_6489041268e4a0_50178585 (Smarty_Internal_Template $_smarty_tpl)
 							<h2>Service</h2>
 							<ul class="nav nav-pills nav-stacked">
 								<li><a href="#">Online Help</a></li>
-								<li><a href="contact-us.html">Contact Us</a></li>
+								<li><a href="../view/contact-us.html">Contact Us</a></li>
 								<li><a href="#">Order Status</a></li>
 								<li><a href="#">Change Location</a></li>
 								<li><a href="#">FAQ’s</a></li>

@@ -47,4 +47,10 @@ Class Conexao extends Config {
     function TotalDados(){
         return $this->obj->rowCount();
     }
+
+  
+    function GetItens(){
+        return $this->itens;
+    }
+
 }

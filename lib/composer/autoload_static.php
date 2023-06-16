@@ -15,6 +15,7 @@ class ComposerStaticInit8ad12e2bd7effc0204ed87c7ea6d2d00
         'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
         'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
         'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
+        'Produtos' => __DIR__ . '/../..' . '/model/ProdutosClass.php',
         'Rotas' => __DIR__ . '/../..' . '/model/RotasClass.php',
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'Smarty' => __DIR__ . '/..' . '/smarty/smarty/libs/Smarty.class.php',

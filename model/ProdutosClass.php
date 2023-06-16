@@ -1,3 +1,5 @@
+<?php
+
 class Produtos extends Conexao {
     function __construct() {
         parent::__construct();
