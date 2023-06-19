@@ -19,7 +19,7 @@ Class Config {
     const EMAIL_HOST = "smtp.gmail.com";
     const EMAIL_USER = "assassinsonic1@gmail.com";
     const EMAIL_NOME = "Contato GlobalMart";
-    const EMAIL_SENHA = "Assassin5@";
+    const EMAIL_SENHA = "";
     const EMAIL_PORTA = 587;
     const EMAIL_SMTPAUTH = true;
     const EMAIL_SMTPSECURE = 'tls';
